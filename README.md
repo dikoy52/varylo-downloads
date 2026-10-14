@@ -1,2 +1,11 @@
-# varylo-downloads
-Official Varylo installers and open-source notices
+# Varylo для Windows
+
+[Скачать Varylo 1.0.16 beta 1](https://github.com/dikoy52/varylo-downloads/releases/download/v1.0.16-beta.1/Varylo-Setup.exe)
+
+[Сайт](https://videolab-j2e5.onrender.com/)
+
+Два раздела: Перемонтажи и Календарь. Создай серию и выбери расписание. Все ролики сохраняются в облако, затем перемешиваются и добавляются в календарь с автоматической отправкой в Trial Reels. Отдельное подтверждение каждого дня не требуется.
+
+SHA-256 установщика: `65ad9dc8e72505261f4e16d22db7ad52baccb6fffec36a4df86a7cf8320d90e0`.
+
+В этом репозитории только установщики и лицензии. Исходный код находится в приватном репозитории. Для непрерывной облачной отправки требуется работающий сервер; бесплатный Render засыпает.
