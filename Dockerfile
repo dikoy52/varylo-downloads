@@ -6,13 +6,13 @@ RUN apt-get update \
 
 WORKDIR /app
 RUN curl --fail --location --retry 3 \
-      https://github.com/dikoy52/varylo-downloads/releases/download/v1.0.18-beta.1/app-runtime.tar.gz \
+      https://github.com/dikoy52/varylo-downloads/releases/download/v1.0.19-beta.1/app-runtime.tar.gz \
       --output /tmp/app-runtime.tar.gz \
-    && echo "a243ad4c7e58e4ca80f1aac178f8cada0c96a0fc13e1203611955ae4b6e93f23  /tmp/app-runtime.tar.gz" | sha256sum --check --strict \
+    && echo "135294cec6e6235708ecb0f0670626c799f8eeff894d49ad15ba3b9f45c835a5  /tmp/app-runtime.tar.gz" | sha256sum --check --strict \
     && tar -xzf /tmp/app-runtime.tar.gz -C /app \
     && rm /tmp/app-runtime.tar.gz
 
-ENV DESKTOP_DOWNLOAD_URL=https://github.com/dikoy52/varylo-downloads/releases/download/v1.0.18-beta.1/Varylo-Setup.exe \
+ENV DESKTOP_DOWNLOAD_URL=https://github.com/dikoy52/varylo-downloads/releases/download/v1.0.19-beta.1/Varylo-Setup.exe \
     CLOUD_MODE=1 \
     HOST=0.0.0.0 \
     APP_DATA_DIR=/app/data \
